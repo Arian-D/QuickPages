@@ -1,0 +1,20 @@
+-TITLE- Tab Title
+
+-MAIN-HEADING- Page title
+
+
+-LINE-
+-HEADIN- welcome
+blah blah blah
+-LINE-
+-HEADING- Heading size 1
+-HEADIN- Heading size 2
+-HEADI- Heading size 3
+-HEAD- Heading size 4
+-HEA- Heading size 5
+-HE- Heading size 6
+-LINE-
+paragraph
+text with $http://example.com$some link$ and -IMAGE-blah.png-
+-LINE-
+-CENTER- text in the center

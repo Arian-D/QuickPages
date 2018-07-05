@@ -11,6 +11,9 @@ s/^[^-><].*/\<p\>&\<\/p\>/g
 #Hyperlinks
 s/\$\(.*\)\$\(.*\)\$/\<a href=\'\1\'\>\2\<\/a\>/g
 
+#Phone numbers
+s/-TEL-\(.*\)-/\<a class\=\"tel\" href=\'tel\:\1\'\>\&\#9742\;\1\<\/a\>/g 
+
 #Images
 s/-IMAGE-\(.*\)-/\<img src=\'\1\' \/\>/g
 
@@ -18,7 +21,7 @@ s/-IMAGE-\(.*\)-/\<img src=\'\1\' \/\>/g
 s/-CENTER- .*/\<div style=\'text-align\: center\'\>&\<\/div\>/g
 
 #Headings
-s/-MAIN-HEADING- .*/\<div class=\'main-heading\'\>\<h1\>&\<\/h1\>\<\/div\>\<br\>\<br\>/g
+s/-MAIN-HEADING- .*/\<div class=\'main-heading\'\>\<h1\>&\<\/h1\>\<\/div\>\<br\>\<br\>\<br\>/g
 s/-HEADING- .*/\<h1\>&\<\/h1\>/g
 s/-HEADIN- .*/\<h2\>&\<\/h2\>/g
 s/-HEADI- .*/\<h3\>&\<\/h3\>/g

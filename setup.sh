@@ -5,10 +5,14 @@ if [ -z "$1" ]
 		echo "setup.sh example.qck"
 		exit
 fi
+
 folder_name=`basename $1 .qck`
+
 if [ ! -d "$folder_name" ]
 	then
 		mkdir "$PWD/$folder_name"
 fi
+
 cp template.css "$PWD/$folder_name/style.css"
 sed -f quicky.sed "$1" > "$PWD/$folder_name/index.html"
+sed -f quickyStyle.sed "$1" >> "$PWD/$folder_name/style.css"

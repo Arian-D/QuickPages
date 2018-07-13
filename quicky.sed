@@ -1,3 +1,7 @@
+#Remove stylesheet related commands
+
+/^MAKE/d
+
 #Title
 s/-TITLE- \(.*\)/\<title\>\1\<\/title\>/
 

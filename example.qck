@@ -1,3 +1,10 @@
+MAKE body background-color black
+MAKE body background-color blue
+MAKE body background-color red
+MAKE body background-color green
+MAKE body background-color pink
+
+
 -TITLE- Tab Title
 -MAIN-HEADING- Page title
 
